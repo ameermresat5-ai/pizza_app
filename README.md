@@ -10,14 +10,14 @@ Student 2 ID: 212873368
 This simple pizza ordering system uses a Node.js + Express backend and a React + Vite frontend. All orders are stored in server memory only. No database or authentication is used.
 
 ## Install and Run
-### Server
+## Server
 ```
 cd server
 npm install
 npm run dev
 ```
 
-### Client
+## Client
 ```
 cd client
 npm install
