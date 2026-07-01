@@ -1,5 +1,5 @@
 {
-  "name": "pizza-client-212873368-208131557",
+  "name": "pizza-client-212873368",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -12,8 +12,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
- "devDependencies": {
-  "@vitejs/plugin-react": "^4.3.1",
-  "vite": "^5.4.10"
-}
+  "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.62.2",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
+  }
 }

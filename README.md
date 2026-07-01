@@ -6,10 +6,6 @@ Student 1 ID: 208131557
 Student 2: Ameer Mresat  
 Student 2 ID: 212873368
 
-## Repository Link
-
-GitHub repository: https://github.com/ameermresat5-ai/pizza_app
-
 ## Overview
 This simple pizza ordering system uses a Node.js + Express backend and a React + Vite frontend. All orders are stored in server memory only. No database or authentication is used.
 
