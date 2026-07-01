@@ -1,0 +1,117 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f7f4ef;
+}
+
+body {
+  margin: 0;
+  background: #f7f4ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.tab, button {
+  border: none;
+  background: #d44a1d;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #a33212;
+}
+
+.page-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.panel {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  background: #eee;
+  color: #222;
+}
+
+.chip.active {
+  background: #2f7d32;
+  color: white;
+}
+
+.preview-box, .success, .error, .order-summary-panel, .track-box {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.success {
+  background: #eef8ee;
+  color: #2a6e2a;
+}
+
+.error {
+  background: #fdeaea;
+  color: #b42318;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.muted {
+  color: #666;
+}
