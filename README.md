@@ -58,4 +58,12 @@ The client will call the server at http://localhost:3001/api.
    Keeping the flow simple while matching the required API behavior and status transitions.
 
 7. Which design decision did you make from HW1 and why?  
-   I used a simple three-role UI (Customer, Employee, Delivery) to match the homework workflow and keep the system beginner-friendly.
+   We used a simple three-role UI (Customer, Employee, Delivery) to match the homework workflow and keep the system beginner-friendly.
+
+## Repository Link
+
+GitHub repository: https://github.com/ameermresat5-ai/pizza_app_212873368
+
+## Repository Link
+
+GitHub repository: https://github.com/ameermresat5-ai/pizza_app
