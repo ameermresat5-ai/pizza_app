@@ -11,15 +11,15 @@ This simple pizza ordering system uses a Node.js + Express backend and a React +
 
 ## Install and Run
 ### Server
-cd server
-npm install
-npm run dev
+   cd server
+   npm install
+   npm run dev
 
 
 ### Client
-cd client
-npm install
-npm run dev
+   cd client
+   npm install
+   npm run dev
 
 
 The client will call the server at http://localhost:3001/api.
